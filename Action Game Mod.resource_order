@@ -1,0 +1,14 @@
+{
+  "FolderOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"obj_platform","order":2,"path":"objects/obj_platform/obj_platform.yy",},
+    {"name":"snd_coin","order":1,"path":"sounds/snd_coin/snd_coin.yy",},
+    {"name":"spr_mediumsqr","order":1,"path":"sprites/spr_mediumsqr/spr_mediumsqr.yy",},
+    {"name":"spr_smallsqr","order":6,"path":"sprites/spr_smallsqr/spr_smallsqr.yy",},
+    {"name":"obj_collect","order":4,"path":"objects/obj_collect/obj_collect.yy",},
+    {"name":"fnt_score","order":1,"path":"fonts/fnt_score/fnt_score.yy",},
+    {"name":"obj_player","order":3,"path":"objects/obj_player/obj_player.yy",},
+    {"name":"obj_star_manager","order":5,"path":"objects/obj_star_manager/obj_star_manager.yy",},
+    {"name":"room0","order":1,"path":"rooms/room0/room0.yy",},
+  ],
+}
