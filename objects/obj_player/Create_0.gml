@@ -15,6 +15,9 @@ shooting_time = 15
 audio_timer = 0
 audio_time = 30
 
+//for github push practice:
+fake_variable = noone
+
 
 function hit() 
 {
