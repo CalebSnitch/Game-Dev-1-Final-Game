@@ -1,3 +1,4 @@
+/*
 draw_set_font(fnt_score)
 
 draw_set_halign(fa_center)
@@ -28,3 +29,5 @@ else if (transition = true)
 			draw_text_color(room_width/2, room_height/2, "Rocket Jump", c_yellow, c_yellow, c_yellow, c_yellow, 1)
 	}
 }
+
+*/
