@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_button_how_to_play",
   "spriteId": {
-    "name": "spr_start_button",
-    "path": "sprites/spr_start_button/spr_start_button.yy",
+    "name": "spr_button_how_to_play",
+    "path": "sprites/spr_button_how_to_play/spr_button_how_to_play.yy",
   },
   "solid": false,
   "visible": true,
