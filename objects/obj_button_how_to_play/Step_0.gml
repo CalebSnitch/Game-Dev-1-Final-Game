@@ -1,13 +1,17 @@
-if (!position_meeting(mouse_x, mouse_y, id))
-{
-	selected = false
-}else if (selected = false)
-{
-	//play select sound
-	selected = true
-}
+if (obj_menu.state = STATES.IDLE)
+	{
+	if (!position_meeting(mouse_x, mouse_y, id))
+	{
+		selected = false
+	}else if (selected = false)
+	{
+		//play select sound
+		selected = true
+	}
 
-if (position_meeting(mouse_x, mouse_y, id) and mouse_check_button_pressed(mb_left))
-{
-	room_goto(rm_how_to_play)
+	if (position_meeting(mouse_x, mouse_y, id) and mouse_check_button_pressed(mb_left))
+	{
+		obj_menu.rm_destination = rm_how_to_play
+		obj_menu.state = STATES.TRANSITION
+	}
 }

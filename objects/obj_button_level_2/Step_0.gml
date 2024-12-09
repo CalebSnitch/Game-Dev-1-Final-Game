@@ -11,7 +11,7 @@ if (obj_menu.state = STATES.IDLE)
 
 	if (position_meeting(mouse_x, mouse_y, id) and mouse_check_button_pressed(mb_left))
 	{
-		obj_menu.rm_destination = rm_level_select
+		obj_menu.rm_destination = Room1
 		obj_menu.state = STATES.TRANSITION
 	}
 }

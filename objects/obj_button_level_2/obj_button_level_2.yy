@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_button_level_1",
+  "name": "obj_button_level_2",
   "spriteId": {
     "name": "spr_button_play",
     "path": "sprites/spr_button_play/spr_button_play.yy",
