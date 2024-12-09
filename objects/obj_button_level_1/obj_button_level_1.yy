@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_button_level_1",
   "spriteId": {
-    "name": "spr_button_play",
-    "path": "sprites/spr_button_play/spr_button_play.yy",
+    "name": "spr_button_level_1",
+    "path": "sprites/spr_button_level_1/spr_button_level_1.yy",
   },
   "solid": false,
   "visible": true,

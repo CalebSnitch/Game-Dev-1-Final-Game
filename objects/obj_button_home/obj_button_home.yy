@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_button_main_menu",
+  "name": "obj_button_home",
   "spriteId": {
     "name": "spr_button_home",
     "path": "sprites/spr_button_home/spr_button_home.yy",
