@@ -17,7 +17,7 @@ else if (transition = true)
 	
 	if (transition_timer >= transition_time)
 	{
-		room_goto(room0)
+		room_goto(rm_level_select)
 	}
 	
 	if (transition_timer % 5 = 0)
