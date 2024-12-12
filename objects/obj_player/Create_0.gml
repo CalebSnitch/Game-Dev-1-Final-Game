@@ -16,7 +16,6 @@ audio_timer = 0
 audio_time = 30
 
 
-
 function hit() 
 {
 	alive = false
@@ -62,6 +61,9 @@ part_type_alpha3(exhaust, 1, 1, 1);
 part_type_blend(exhaust, false);
 part_type_life(exhaust, 8, 8);
 
+
+
+audio_listener_orientation(0, 1, 0, 0, 0, 1)
 
 
 

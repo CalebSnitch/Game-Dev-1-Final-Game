@@ -15,5 +15,13 @@ if (active = true)
 	}
 
 	x += movement_speed * movement_direction
+	
+	
 }
 
+
+if (playing_sound = false)
+{
+	audio_play_sound_on(s_emit, snd_alien, true, 15, 1)
+	playing_sound = true	
+}

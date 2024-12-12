@@ -5,7 +5,7 @@ if (obj_menu.state = STATES.IDLE)
 		selected = false
 	}else if (selected = false)
 	{
-		//play select sound
+		audio_play_sound(snd_button, 10, false)
 		selected = true
 	}
 
@@ -13,5 +13,6 @@ if (obj_menu.state = STATES.IDLE)
 	{
 		obj_menu.rm_destination = rm_how_to_play
 		obj_menu.state = STATES.TRANSITION
+		audio_play_sound(snd_button_2, 10, false)
 	}
 }

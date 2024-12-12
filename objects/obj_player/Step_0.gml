@@ -157,6 +157,13 @@ if (y_vel > 0)
 }
 
 
+
+
+//audio controls:
+
+audio_listener_position(x, y, 0)
+
+
 /*
 if (rising = false)
 {
