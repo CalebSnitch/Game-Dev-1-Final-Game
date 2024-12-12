@@ -69,6 +69,7 @@
     {"id":{"name":"snd_button_2","path":"sounds/snd_button_2/snd_button_2.yy",},"order":11,},
     {"id":{"name":"obj_test","path":"objects/obj_test/obj_test.yy",},"order":5,},
     {"id":{"name":"spr_button_how_to_play","path":"sprites/spr_button_how_to_play/spr_button_how_to_play.yy",},"order":25,},
+    {"id":{"name":"obj_score_particle_manager","path":"objects/obj_score_particle_manager/obj_score_particle_manager.yy",},"order":33,},
     {"id":{"name":"spr_enemy_1_OLD","path":"sprites/spr_enemy_1_OLD/spr_enemy_1_OLD.yy",},"order":20,},
     {"id":{"name":"snd_start","path":"sounds/snd_start/snd_start.yy",},"order":9,},
     {"id":{"name":"test_room","path":"rooms/test_room/test_room.yy",},"order":2,},

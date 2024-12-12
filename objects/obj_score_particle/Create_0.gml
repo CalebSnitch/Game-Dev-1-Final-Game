@@ -10,3 +10,8 @@ life_timer = 0
 
 life_time = 30
 
+score_text = " "
+
+
+
+

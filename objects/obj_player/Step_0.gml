@@ -99,7 +99,7 @@ if (alive = true)
 		r_y = 0
 		audio_play_sound(snd_jump, 1, false)
 		obj_score_manager.Score_A += 5
-		instance_create_layer(collidewith.x, collidewith.y, "Score_Particles", obj_score_particle, {score_text : 5})
+		obj_score_particle_manager.particle_spawn(collidewith.x, collidewith.y, 5)
 		collidewith.active = false
 	}
 

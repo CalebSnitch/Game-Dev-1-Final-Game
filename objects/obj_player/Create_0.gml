@@ -30,10 +30,12 @@ function hit()
 
 function fell() 
 {
-	instance_create_depth(x, 990, 100, obj_score_particle, {score_text : string(-obj_score_manager.Score_A)})
-	obj_score_manager.Score_A = 0
+	//instance_create_depth(x, 990, 100, obj_score_particle, {score_text : string(-obj_score_manager.Score_A)})
 	obj_bullet_manager.bullet_reset()
 	obj_particle_manager.player_particles(x, y)
+	obj_score_particle_manager.score_particle_reset()
+	obj_score_particle_manager.particle_spawn(x, 990, string(-obj_score_manager.Score_A))
+	obj_score_manager.Score_A = 0
 	alive = false
 	y = -100
 	respawn_timer = 0
