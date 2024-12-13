@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_boost.wav",
-  "duration": 0.311667,
+  "duration": 0.919042,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
