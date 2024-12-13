@@ -26,6 +26,7 @@ function hit()
 	obj_death_animation.active = true
 	y = -100
 	audio_play_sound(snd_hit, 1, false)
+	obj_camera.screen_shake()
 }
 
 function fell() 
@@ -40,6 +41,7 @@ function fell()
 	y = -100
 	respawn_timer = 0
 	audio_play_sound(snd_death, 1, false)
+	obj_camera.screen_shake()
 }
 
 
