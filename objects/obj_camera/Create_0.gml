@@ -1,5 +1,5 @@
 x = 0
-y = obj_player.y
+y = 190
 
 
 

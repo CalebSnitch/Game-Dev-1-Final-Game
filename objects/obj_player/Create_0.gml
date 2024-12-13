@@ -66,8 +66,17 @@ part_type_blend(exhaust, false);
 part_type_life(exhaust, 8, 8);
 
 
+//audio:
 
 audio_listener_orientation(0, 1, 0, 0, 0, 1)
+
+
+audio_delay = 10
+
+audio_timer = 0
+
+
+
 
 
 

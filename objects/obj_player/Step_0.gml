@@ -164,6 +164,17 @@ if (y_vel > 0)
 audio_listener_position(x, y, 0)
 
 
+if (audio_timer < audio_time)
+{
+	audio_timer++
+	
+	if (audio_timer = audio_time and !audio_is_playing(snd_gameplay_music))
+	{
+		audio_play_sound(snd_gameplay_music, 25, true)
+	}
+}
+
+
 /*
 if (rising = false)
 {

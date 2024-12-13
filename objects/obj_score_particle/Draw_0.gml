@@ -27,6 +27,7 @@ if (active = true)
 	}
 
 	draw_set_font(fnt_score_particle)
+	
 
 	draw_text_color(x, y, score_text, color, color, color, color, 1)
 

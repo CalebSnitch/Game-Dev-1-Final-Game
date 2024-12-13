@@ -14,6 +14,7 @@ function fell()
 	obj_bullet_manager.bullet_reset()
 	obj_particle_manager.player_particles(x, y)
 	active = false
+	obj_camera.screen_shake()
 	y = -100
 	audio_play_sound(snd_death, 1, false)
 }
