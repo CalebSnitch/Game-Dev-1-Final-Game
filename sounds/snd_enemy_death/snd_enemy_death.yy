@@ -4,7 +4,7 @@
   "name": "snd_enemy_death",
   "conversionMode": 0,
   "compression": 0,
-  "volume": 1.0,
+  "volume": 0.88,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_enemy_death.wav",
-  "duration": 0.115011,
+  "duration": 0.289977,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

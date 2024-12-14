@@ -15,6 +15,7 @@ if (place_meeting(x, y, obj_bullet))
 	if (hit_points <= 0)
 	{
 		instance_create_layer(x, y, "Score_Particles", obj_score_particle, {score_text : string(points)})
+		obj_particle_manager.enemy_particles(x, y)
 		audio_play_sound(snd_enemy_death, 10, false, 2)
 		active = false
 	}

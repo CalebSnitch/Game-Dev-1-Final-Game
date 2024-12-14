@@ -18,6 +18,7 @@ else if (transition = true)
 	if (transition_timer >= transition_time)
 	{
 		audio_stop_sound(snd_gameplay_music)
+		room_set_persistent(global.paused_room, false)
 		room_goto(rm_level_select)
 	}
 	

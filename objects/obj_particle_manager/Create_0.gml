@@ -17,3 +17,10 @@ function player_particles (x_, y_)
 	part_particles_create(global.P_System_Player, x_, y_, global.particle_player, 12)
 
 }
+
+
+function enemy_particles (x_, y_)
+{
+	part_particles_create(global.P_System_Player, x_, y_, global.particle_player, 6)
+
+}
